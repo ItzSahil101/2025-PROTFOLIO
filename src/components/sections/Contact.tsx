@@ -104,6 +104,7 @@ const Contact = () => {
           <button
             type="submit"
             className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none"
+            onClick={()=>{alert("Internal Server Error :(")}}
           >
             {loading ? "Sending..." : "Send"}
           </button>

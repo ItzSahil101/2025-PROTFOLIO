@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Sahil Jogi -3d protfolio",
+    fullName: "Sahil Jogi",
+    email: "sahiljogi2066@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Sahil Jogi",
+    p: ["I am a fullstack developer,", "Ethical Hacker, Python dev and Content Creator!!"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,11 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `💻 I'm a passionate Full-Stack Web Developer with 1.5 years of hands-on experience in building dynamic and scalable web applications. Alongside web development, I’m also a Python Developer and an Ethical Hacker with a strong foundation in Kali Linux, networking, and cybersecurity practices.
+
+⚡ Over the years, I’ve developed and deployed multiple websites, crafted Python programs and software solutions, and explored practical hacking techniques to understand system vulnerabilities. My journey in tech started from deep curiosity—over the past 2 years, I’ve been continuously exploring new technologies, experimenting with real-world projects, and sharpening my problem-solving skills.
+
+🌐 Whether it’s designing user-friendly web apps, automating with Python, or securing systems against threats, I love working at the intersection of development and cybersecurity to build efficient, secure, and future-ready solutions.`,
     },
     experience: {
       p: "What I have done so far",
@@ -83,10 +83,10 @@ export const config: TConfig = {
     },
     works: {
       p: "My work",
-      h2: "Projects.",
+      h2: "Web Based Projects.",
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
+    links to code and live demos in it. It reflects my
     ability to solve complex problems, work with different technologies,
     and manage projects effectively.`,
     },

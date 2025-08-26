@@ -8,8 +8,8 @@ import type {
 } from "../types";
 
 import {
-  mobile,
   backend,
+  mobile,
   creator,
   web,
   javascript,
@@ -24,15 +24,22 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
+
+import pustak from "../assets/web/pustak.png";
+import nepcart from "../assets/web/nepcart.png";
+import qr from "../assets/web/qr.png";
+import webnest from "../assets/web/wnh.png";
+import chess from "../assets/web/chess.png";
+import anime from "../assets/web/anime.png";
+import bubble from "../assets/web/bubble.png";
+import rps from "../assets/web/rps.png";
+import tracker from "../assets/web/tracker.png";
+import sahil from "../assets/web/itxsahil.png";
+import news from "../assets/web/news.png";
+import weather from "../assets/web/weather.png"
+
 
 export const navLinks: TNavLink[] = [
   {
@@ -47,23 +54,27 @@ export const navLinks: TNavLink[] = [
     id: "contact",
     title: "Contact",
   },
+    {
+    id: "det",
+    title: "About ME",
+  },
 ];
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Website Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Ethical Hacker",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
     title: "Content Creator",
+    icon: creator,
+  },
+    {
+    title: "Python Coder",
     icon: creator,
   },
 ];
@@ -125,55 +136,55 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Fullstack Web Developer",
+    companyName: "Self-Employed",
+    icon: web,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built multiple responsive websites with modern frameworks like React, Node.js, and MongoDB.",
+      "Developed and deployed fullstack projects using MERN stack.",
+      "Implemented secure authentication, payment integration (eSewa), and dynamic dashboards.",
+      "Explored SEO optimization, responsive design, and high-performance frontend practices.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Python Developer",
+    companyName: "Self Projects",
+    icon: backend,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built custom Python scripts for automation and data processing.",
+      "Created standalone software solutions improving productivity.",
+      "Worked with APIs and integrated Python with web apps.",
+      "Explored AI/ML libraries while experimenting with small projects.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Ethical Hacker & Cybersecurity Explorer",
+    companyName: "Independent",
+    icon: mobile,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained hands-on experience with Kali Linux and penetration testing tools.",
+      "Performed ethical hacking attacks in controlled environments.",
+      "Studied networking, OSINT, and system vulnerabilities.",
+      "Leveraged cybersecurity knowledge to make my own apps more secure.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    title: "Tech Explorer & Content Creator",
+    companyName: "YouTube & Personal Brand",
+    icon: creator,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created tech-related content around coding, hacking, and mindset.",
+      "Shared knowledge in web development, Python, and cybersecurity.",
+      "Explored new technologies out of curiosity and documented learnings.",
+      "Built personal projects to sharpen skills and inspire others.",
     ],
   },
 ];
@@ -181,94 +192,163 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working with him was amazing. He built us a secure and scalable web app, exactly how we envisioned.",
+    name: "Client A",
+    designation: "Startup Founder",
+    company: "TechNova",
+    image: "https://randomuser.me/api/portraits/men/11.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "His mix of development and cybersecurity knowledge is rare. He not only built the platform but also ensured it was safe from vulnerabilities.",
+    name: "Client B",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "SecureTech",
+    image: "https://randomuser.me/api/portraits/men/14.jpg",
+  },
+  {
+    testimonial:
+      "Brilliant fullstack developer with deep curiosity in tech. From coding to ethical hacking, he delivers value in every project.",
+    name: "Client C",
+    designation: "Manager",
+    company: "InnovateHub",
+    image: "https://randomuser.me/api/portraits/women/15.jpg",
   },
 ];
 
 const projects: TProject[] = [
-  {
-    name: "Car Rent",
+ {
+    name: "Pustak Point",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "MERN stack platform for students to register, earn points, download ebooks/notes, recharge via eSewa, access previews, leaderboards, and achievements.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "mern", color: "blue-text-gradient" },
+      { name: "esewa", color: "green-text-gradient" },
+      { name: "bootstrap", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: pustak,
+    sourceCodeLink: "https://pustak-hubx.vercel.app",
   },
   {
-    name: "Job IT",
+    name: "NepCart",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Ecommerce shopping platform for online sales, product browsing, and order management with a user-friendly interface.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: nepcart,
+    sourceCodeLink: "https://nepcart.vercel.app",
   },
   {
-    name: "Trip Guide",
+    name: "WebNestHub",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Website selling platform with secure checkout, responsive design, product listings, and order tracking.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "bootstrap", color: "green-text-gradient" },
+      { name: "mern", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: webnest,
+    sourceCodeLink: "https://web-nex.vercel.app",
   },
+  {
+    name: "Portfolio Website",
+    description:
+      "Personal portfolio showcasing projects, skills, and experience after completing frontend development journey.",
+    tags: [
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
+    ],
+    image: sahil,
+    sourceCodeLink: "https://itxsahil.netlify.app",
+  },
+  {
+    name: "Chess Game",
+    description: "Interactive chess game built with JavaScript for gameplay and logic.",
+    tags: [
+      { name: "javascript", color: "blue-text-gradient" },
+      { name: "html-css", color: "green-text-gradient" },
+    ],
+    image: chess,
+    sourceCodeLink: "https://mjavadh.github.io/4X4-Collection/Technology/Terminal/index.html",
+  },
+  {
+    name: "Anime Info Website",
+    description:
+      "Platform to search anime, watch trailers, view details, and follow the latest news.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "api", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    image: anime,
+    sourceCodeLink: "https://anime-versee.netlify.app",
+  },
+   {
+    name: "NewsBoy",
+    description:
+      "Daily news aggregator fetching news from various topics for easy browsing.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "api", color: "green-text-gradient" },
+    ],
+    image: news,
+    sourceCodeLink: "https://news-boys.vercel.app",
+  },
+  {
+    name: "QR Generator",
+    description: "Generates QR codes for URLs, text, and other data.",
+    tags: [
+      { name: "javascript", color: "blue-text-gradient" },
+      { name: "html-css", color: "green-text-gradient" },
+    ],
+    image: qr,
+    sourceCodeLink: "https://qrgenxyz.netlify.app",
+  },
+  {
+    name: "Rock Paper Scissor Game",
+    description: "Classic rock-paper-scissor game implemented using JavaScript.",
+    tags: [
+      { name: "javascript", color: "blue-text-gradient" },
+      { name: "html-css", color: "green-text-gradient" },
+    ],
+    image: rps,
+    sourceCodeLink: "https://rps-gamez.vercel.app",
+  },
+  {
+    name: "Bubble Game",
+    description: "Interactive bubble popping game built with JavaScript and CSS animations.",
+    tags: [
+      { name: "javascript", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+    ],
+    image: bubble,
+    sourceCodeLink: "https://itxsahil.netlify.app/bbl",
+  },
+  {
+    name: "Weather Forecast",
+    description: "Shows real-time weather data using APIs with responsive UI.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "api", color: "green-text-gradient" },
+    ],
+    image: weather,
+    sourceCodeLink: "https://itxsahil.netlify.app/sky",
+  },
+  {
+    name: "Device Tracker",
+    description: "Tracks locations of devices/users on a map in real-time.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "map-api", color: "green-text-gradient" },
+    ],
+    image: tracker,
+    sourceCodeLink: "https://mjavadh.github.io/4X4-Collection/Technology/Terminal/index.html",
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
