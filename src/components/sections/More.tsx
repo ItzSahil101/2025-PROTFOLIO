@@ -5,6 +5,7 @@ import mypic from "../../assets/sahil.png";
 import cehPic from "../../assets/ceh.png";
 import "../../globals.css";
 import { fadeIn } from "../../utils/motion";
+import PdfViewer from "./PdfViewer";
 
 const cehModules = [
   "Introduction to Ethical Hacking",
@@ -178,6 +179,32 @@ const More: React.FC = () => {
           ))}
         </div>
       </div>
+
+      <PdfViewer />
+
+      <div className="flex flex-col sm:flex-row gap-6 mt-12 justify-center items-center">
+  {/* YouTube Button */}
+  <a
+    href="https://www.youtube.com/@CodeSpire2xz"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-500 to-pink-500 text-white font-cursive text-lg rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:tracking-wider hover:from-pink-500 hover:to-red-500"
+  >
+    <span>🚀</span> My YT Channel
+  </a>
+
+  {/* Instagram Button */}
+  <a
+    href="https://www.instagram.com/itx_sahil1110"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-500 to-yellow-400 text-white font-cursive text-lg rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:tracking-wider hover:from-yellow-400 hover:to-purple-500"
+  >
+    <span>🔥</span> My Insta Id
+  </a>
+</div>
+
+
     </div>
   );
 };
