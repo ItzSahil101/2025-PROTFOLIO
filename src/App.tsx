@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import {
   About,
@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import More from "./components/sections/More";
 import { useEffect } from "react";
 import { config } from "./constants/config";
 
@@ -22,21 +23,32 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter>
+   <BrowserRouter>
       <div className="bg-primary relative z-0">
         <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
           <Navbar />
           <Hero />
         </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
-        <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
-        </div>
+
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <About />
+                <Experience />
+                <Tech />
+                <Works />
+                <Feedbacks />
+                <More/>
+                <div className="relative z-0">
+                  <Contact />
+                  <StarsCanvas />
+                </div>
+              </>
+            }
+          />
+        </Routes>
       </div>
     </BrowserRouter>
   );

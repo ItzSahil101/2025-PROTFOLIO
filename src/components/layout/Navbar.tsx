@@ -67,32 +67,6 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <button
-          style={{
-            background: 'linear-gradient(135deg, #1e3c72, #2a5298)',
-            border: 'none',
-            borderRadius: '12px',
-            padding: '12px 24px',
-            color: 'white',
-            fontSize: '16px',
-            fontWeight: 'bold',
-            cursor: 'pointer',
-            transition: 'all 0.3s ease',
-            boxShadow: '0px 4px 12px rgba(0,0,0,0.2)',
-          }}
-          onClick={() => window.open('https://www.youtube.com/@CodeSpire2xz', '_blank')}
-          onMouseOver={e => {
-            e.currentTarget.style.transform = 'scale(1.08)';
-            e.currentTarget.style.boxShadow = '0px 6px 16px rgba(0,0,0,0.3)';
-          }}
-          onMouseOut={e => {
-            e.currentTarget.style.transform = 'scale(1)';
-            e.currentTarget.style.boxShadow = '0px 4px 12px rgba(0,0,0,0.2)';
-          }}
-        >
-          🚀 Code Spire - YT
-        </button>
-
         <ul className="hidden list-none flex-row gap-10 sm:flex">
           {navLinks.map(nav => (
             <li
