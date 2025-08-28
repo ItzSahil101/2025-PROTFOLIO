@@ -222,7 +222,7 @@ const projects: TProject[] = [
       { name: "esewa", color: "green-text-gradient" },
       { name: "bootstrap", color: "pink-text-gradient" },
     ],
-    image: "https://i.imgur.com/A8LIcNz.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://pustak-hubx.vercel.app",
   },
   {
@@ -234,7 +234,7 @@ const projects: TProject[] = [
       { name: "nodejs", color: "green-text-gradient" },
       { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: "https://i.imgur.com/Qb6rlBW.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://nepcart.vercel.app",
   },
   {
@@ -246,7 +246,7 @@ const projects: TProject[] = [
       { name: "bootstrap", color: "green-text-gradient" },
       { name: "mern", color: "pink-text-gradient" },
     ],
-    image: "https://i.imgur.com/D80bxz5.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://web-nex.vercel.app",
   },
   {
@@ -258,7 +258,7 @@ const projects: TProject[] = [
       { name: "css", color: "green-text-gradient" },
       { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: "https://i.imgur.com/mEH1L4j.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://itxsahil.netlify.app",
   },
   {
@@ -268,7 +268,7 @@ const projects: TProject[] = [
       { name: "javascript", color: "blue-text-gradient" },
       { name: "html-css", color: "green-text-gradient" },
     ],
-    image: "https://i.imgur.com/1Uy3QLE.jpeg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://mjavadh.github.io/4X4-Collection/Technology/Terminal/index.html",
   },
   {
@@ -280,7 +280,7 @@ const projects: TProject[] = [
       { name: "api", color: "green-text-gradient" },
       { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: "https://i.imgur.com/CfBqsaR.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://anime-versee.netlify.app",
   },
    {
@@ -291,7 +291,7 @@ const projects: TProject[] = [
       { name: "react", color: "blue-text-gradient" },
       { name: "api", color: "green-text-gradient" },
     ],
-    image: "https://i.imgur.com/FTBp9pR.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://news-boys.vercel.app",
   },
   {
@@ -301,7 +301,7 @@ const projects: TProject[] = [
       { name: "javascript", color: "blue-text-gradient" },
       { name: "html-css", color: "green-text-gradient" },
     ],
-    image: "https://i.imgur.com/nbX7Asz.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://qrgenxyz.netlify.app",
   },
   {
@@ -311,7 +311,7 @@ const projects: TProject[] = [
       { name: "javascript", color: "blue-text-gradient" },
       { name: "html-css", color: "green-text-gradient" },
     ],
-    image: "https://i.imgur.com/3jlk6qO.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://rps-gamez.vercel.app",
   },
   {
@@ -321,7 +321,7 @@ const projects: TProject[] = [
       { name: "javascript", color: "blue-text-gradient" },
       { name: "css", color: "green-text-gradient" },
     ],
-    image: "https://i.imgur.com/NMDoOzz.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://itxsahil.netlify.app/bbl",
   },
   {
@@ -331,7 +331,7 @@ const projects: TProject[] = [
       { name: "react", color: "blue-text-gradient" },
       { name: "api", color: "green-text-gradient" },
     ],
-    image: "https://i.imgur.com/pllXJGF.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://itxsahil.netlify.app/sky",
   },
   {
@@ -341,7 +341,7 @@ const projects: TProject[] = [
       { name: "react", color: "blue-text-gradient" },
       { name: "map-api", color: "green-text-gradient" },
     ],
-    image: "https://i.imgur.com/jZhrLbi.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcHPBG_vPaZOtEU8mfdgX3ZVSQSJI-fhq5g&s",
     sourceCodeLink: "https://mjavadh.github.io/4X4-Collection/Technology/Terminal/index.html",
   },
   
