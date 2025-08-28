@@ -27,18 +27,18 @@ import {
   threejs,
 } from "../assets";
 
-import pustak from "../assets/web/pustak.png";
-import nepcart from "../assets/web/nepcart.png";
-import qr from "../assets/web/qr.png";
-import webnest from "../assets/web/wnh.png";
-import chess from "../assets/web/chess.png";
-import anime from "../assets/web/anime.png";
-import bubble from "../assets/web/bubble.png";
-import rps from "../assets/web/rps.png";
-import tracker from "../assets/web/tracker.png";
-import sahil from "../assets/web/itxsahil.png";
-import news from "../assets/web/news.png";
-import weather from "../assets/web/weather.png"
+// import pustak from "../assets/web/pustak.png";
+// import nepcart from "../assets/web/nepcart.png";
+// import qr from "../assets/web/qr.png";
+// import webnest from "../assets/web/wnh.png";
+// import chess from "../assets/web/chess.png";
+// import anime from "../assets/web/anime.png";
+// import bubble from "../assets/web/bubble.png";
+// import rps from "../assets/web/rps.png";
+// import tracker from "../assets/web/tracker.png";
+// import sahil from "../assets/web/itxsahil.png";
+// import news from "../assets/web/news.png";
+// import weather from "../assets/web/weather.png"
 
 
 export const navLinks: TNavLink[] = [
@@ -222,7 +222,7 @@ const projects: TProject[] = [
       { name: "esewa", color: "green-text-gradient" },
       { name: "bootstrap", color: "pink-text-gradient" },
     ],
-    image: pustak,
+    image: "https://i.imgur.com/A8LIcNz.png",
     sourceCodeLink: "https://pustak-hubx.vercel.app",
   },
   {
@@ -234,7 +234,7 @@ const projects: TProject[] = [
       { name: "nodejs", color: "green-text-gradient" },
       { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: nepcart,
+    image: "https://i.imgur.com/Qb6rlBW.png",
     sourceCodeLink: "https://nepcart.vercel.app",
   },
   {
@@ -246,7 +246,7 @@ const projects: TProject[] = [
       { name: "bootstrap", color: "green-text-gradient" },
       { name: "mern", color: "pink-text-gradient" },
     ],
-    image: webnest,
+    image: "https://i.imgur.com/D80bxz5.png",
     sourceCodeLink: "https://web-nex.vercel.app",
   },
   {
@@ -258,7 +258,7 @@ const projects: TProject[] = [
       { name: "css", color: "green-text-gradient" },
       { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: sahil,
+    image: "https://i.imgur.com/mEH1L4j.png",
     sourceCodeLink: "https://itxsahil.netlify.app",
   },
   {
@@ -268,7 +268,7 @@ const projects: TProject[] = [
       { name: "javascript", color: "blue-text-gradient" },
       { name: "html-css", color: "green-text-gradient" },
     ],
-    image: chess,
+    image: "https://i.imgur.com/1Uy3QLE.jpeg",
     sourceCodeLink: "https://mjavadh.github.io/4X4-Collection/Technology/Terminal/index.html",
   },
   {
@@ -280,7 +280,7 @@ const projects: TProject[] = [
       { name: "api", color: "green-text-gradient" },
       { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: anime,
+    image: "https://i.imgur.com/CfBqsaR.png",
     sourceCodeLink: "https://anime-versee.netlify.app",
   },
    {
@@ -291,7 +291,7 @@ const projects: TProject[] = [
       { name: "react", color: "blue-text-gradient" },
       { name: "api", color: "green-text-gradient" },
     ],
-    image: news,
+    image: "https://i.imgur.com/FTBp9pR.png",
     sourceCodeLink: "https://news-boys.vercel.app",
   },
   {
@@ -301,7 +301,7 @@ const projects: TProject[] = [
       { name: "javascript", color: "blue-text-gradient" },
       { name: "html-css", color: "green-text-gradient" },
     ],
-    image: qr,
+    image: "https://i.imgur.com/nbX7Asz.png",
     sourceCodeLink: "https://qrgenxyz.netlify.app",
   },
   {
@@ -311,7 +311,7 @@ const projects: TProject[] = [
       { name: "javascript", color: "blue-text-gradient" },
       { name: "html-css", color: "green-text-gradient" },
     ],
-    image: rps,
+    image: "https://i.imgur.com/3jlk6qO.png",
     sourceCodeLink: "https://rps-gamez.vercel.app",
   },
   {
@@ -321,7 +321,7 @@ const projects: TProject[] = [
       { name: "javascript", color: "blue-text-gradient" },
       { name: "css", color: "green-text-gradient" },
     ],
-    image: bubble,
+    image: "https://i.imgur.com/NMDoOzz.png",
     sourceCodeLink: "https://itxsahil.netlify.app/bbl",
   },
   {
@@ -331,7 +331,7 @@ const projects: TProject[] = [
       { name: "react", color: "blue-text-gradient" },
       { name: "api", color: "green-text-gradient" },
     ],
-    image: weather,
+    image: "https://i.imgur.com/pllXJGF.png",
     sourceCodeLink: "https://itxsahil.netlify.app/sky",
   },
   {
@@ -341,7 +341,7 @@ const projects: TProject[] = [
       { name: "react", color: "blue-text-gradient" },
       { name: "map-api", color: "green-text-gradient" },
     ],
-    image: tracker,
+    image: "https://i.imgur.com/jZhrLbi.png",
     sourceCodeLink: "https://mjavadh.github.io/4X4-Collection/Technology/Terminal/index.html",
   },
   
