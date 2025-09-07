@@ -20,6 +20,11 @@ const Tech = () => {
     ". Vercel",
     ". Figma",
     ". Three.js",
+    ". Networking",
+    ". Ethical Hacking | Cehv13",
+    ". Python",
+    ". OSINT",
+    "Content Creation / Editing"
   ];
 
   return (
